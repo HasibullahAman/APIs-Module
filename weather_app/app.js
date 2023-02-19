@@ -3,6 +3,14 @@ const https = require('https');
 const app = express();
 
 
+app.get('/', function(req, res){
+    const url = 'https://api.chucknorris.io/jokes/random#';
+    https.get(url, function(response){
+        console.log(response);
+    })
+
+    res.sendStatus('Server is running:................');
+})
 
 
 
