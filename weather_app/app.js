@@ -9,7 +9,7 @@ app.get('/', function(req, res){
         console.log(response);
     })
 
-    res.sendStatus('Server is running:................');
+    res.send('Server is running:................');
 })
 
 app.listen(3000,function(){
