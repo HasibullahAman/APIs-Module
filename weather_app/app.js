@@ -12,13 +12,6 @@ app.get('/', function(req, res){
     res.sendStatus('Server is running:................');
 })
 
-
-
-
-
-
-
-
 app.listen(3000,function(){
     console.log('Listening on port is: 3000');
 })
