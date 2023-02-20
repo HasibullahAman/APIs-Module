@@ -9,8 +9,12 @@ app.get('/', function(req, res){
     https.get(url, function(response){
         console.log(response);
         response.on('data',function(data){
-            const joke = JSON.parse(data)
-            console.log(joke)
+            // const joke = JSON.parse(data)
+            const myObject = {
+                name:'Hasibullah',
+                favoritFood :'Mantoo'
+            }
+            console.log(myObject)
         })
     })
 
