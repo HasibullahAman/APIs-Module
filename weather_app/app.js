@@ -9,16 +9,18 @@ app.get('/', function(req, res){
     https.get(url, function(response){
         console.log(response);
         response.on('data',function(data){
-            // const joke = JSON.parse(data)
-            const myObject = {
-                name:'Hasibullah',
-                favoritFood :'Mantoo'
-            }
-            console.log(JSON.stringify(myObject))
+            const joke = JSON.parse(data)
+            // const myObject = {
+            //     name:'Hasibullah',
+            //     favoritFood :'Mantoo'
+            // }
+            // console.log(JSON.stringify(myObject))
+            const temp = joke.value
+            res.send(temp)
         })
     })
 
-    res.send('Server is running:................');
+    // res.send('Server is running:................');
 })
 
 app.listen(3000,function(){
