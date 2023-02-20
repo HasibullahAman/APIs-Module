@@ -14,7 +14,7 @@ app.get('/', function(req, res){
                 name:'Hasibullah',
                 favoritFood :'Mantoo'
             }
-            console.log(myObject)
+            console.log(JSON.stringify(myObject))
         })
     })
 
