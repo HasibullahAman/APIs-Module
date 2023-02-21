@@ -16,7 +16,7 @@ app.get('/', function(req, res){
             // }
             // console.log(JSON.stringify(myObject))
             const temp = joke.value
-            res.send(temp)
+            res.send('<h1> '+temp +' </h1>')
         })
     })
 
