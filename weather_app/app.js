@@ -16,7 +16,9 @@ app.get('/', function(req, res){
             // }
             // console.log(JSON.stringify(myObject))
             const temp = joke.value
-            res.send('<h1> '+temp +' </h1>')
+            res.write(temp+" Hello Lovaly Masooma Jan")
+            res.write('<h1> '+temp +' </h1>');
+            res.send();
         })
     })
 
