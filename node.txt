@@ -15,10 +15,15 @@ What is API?
 
                 - https://api.example.com/users/{user_id}
                     In this case, {user_id} would be replaced with the actual ID of the user being requested.
-                    
+
                 - Endpoints can also include parameters that modify their behavior. For example:
                     https://api.example.com/products?category=electronics
                     In this case, the "category" parameter is used to filter products based on their category.
             2-Pths:
+                - compelete URL
             3-Parameters:
+                endpoint/catagory=newdat
+                catagory= newdata is parameter
+                catagory is key and newdata is query
             4-Authentication:
+                - refers to the process of verifying the identity of a user or application that is attempting to access an API.
