@@ -1,0 +1,7 @@
+
+
+What is API?
+---- API -> Application Program Interface
+---- API -> is set of commends, function, protocols, and object that programmer use to create software or 
+            or interact with other systems.
+            
