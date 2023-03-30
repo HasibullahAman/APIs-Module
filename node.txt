@@ -5,3 +5,9 @@ What is API?
 ---- API -> is set of commends, function, protocols, and object that programmer use to create software or 
             or interact with other systems.
 ---- Jquary: is an API
+        API consist:
+            1-Endpoint: 
+                
+            2-Pths:
+            3-Parameters:
+            4-Authentication:
