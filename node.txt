@@ -7,7 +7,18 @@ What is API?
 ---- Jquary: is an API
         API consist:
             1-Endpoint: 
-                
+                - An endpoint in an API (Application Programming Interface) is a specific URL or URI
+                  (Uniform Resource Identifier) that represents a resource or service provided by the
+                  API. It is the point of entry for clients to access the functionality provided by the API.
+
+                - Endpoints are typically defined by HTTP methods such as GET, POST, PUT, DELETE, etc.
+
+                - https://api.example.com/users/{user_id}
+                    In this case, {user_id} would be replaced with the actual ID of the user being requested.
+                    
+                - Endpoints can also include parameters that modify their behavior. For example:
+                    https://api.example.com/products?category=electronics
+                    In this case, the "category" parameter is used to filter products based on their category.
             2-Pths:
             3-Parameters:
             4-Authentication:
