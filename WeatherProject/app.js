@@ -11,14 +11,14 @@ app.get('/', (req, res, next) => {
         console.log(response.statusCode);
         response.on('data', (data) =>{
             const WeatherData = JSON.parse(data);
-            const temp = WeatherData.flags.religious
+            const temp = WeatherData.joke
             res.send('The joke is:'+ temp)
 
         })
     })
 
 
-    // res.send("server is running now!")
+    res.send("server is running now!")
     })
 app.listen(3000,() =>{
     console.log("Weather app srever run on port 3000: ")
