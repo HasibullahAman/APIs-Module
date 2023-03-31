@@ -1,4 +1,4 @@
-const { response } = require('express');
+// const { response } = require('express');
 const express = require('express');
 const https = require('https');
 
@@ -11,6 +11,7 @@ app.get('/', (req, res, next) => {
         console.log(response.statusCode);
         response.on('data', (data) =>{
             const WeatherData = JSON.parse(data);
+            const temp = WeatherData.flags.religious
 
         })
     })
