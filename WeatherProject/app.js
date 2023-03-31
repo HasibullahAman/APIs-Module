@@ -6,12 +6,17 @@ const app = express();
 
 app.get('/', (req, res, next) => {
 
-    const url = "https://v2.jokeapi.dev/joke/Programming#";
+    const url = "https://v2.jokeapi.dev/joke/Programming";
     https.get(url, (response)=>{
-        console.log(response);
+        console.log(response.statusCode);
+        response.on('data', (data) =>{
+            const WeatherData = JSON.parse(data);
+
+        })
     })
 
-    res.send("server is running now!")
+
+    // res.send("server is running now!")
     })
 app.listen(3000,() =>{
     console.log("Weather app srever run on port 3000: ")
