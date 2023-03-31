@@ -12,6 +12,7 @@ app.get('/', (req, res, next) => {
         response.on('data', (data) =>{
             const WeatherData = JSON.parse(data);
             const temp = WeatherData.flags.religious
+            res.send('The joke is:'+ temp)
 
         })
     })
