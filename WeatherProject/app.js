@@ -4,7 +4,7 @@ const app = express();
 
 app.get('/', (req, res, next) => {
 
-    const url = https://v2.jokeapi.dev/joke/Programming#
+    const url = "https://v2.jokeapi.dev/joke/Programming#";
 
     res.send("server is running now!")
     })
