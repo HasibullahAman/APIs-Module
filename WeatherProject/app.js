@@ -6,7 +6,7 @@ const app = express();
 
 app.get('/', (req, res, next) => {
 
-    const url = "https://v2.jokeapi.dev/joke/Programming";
+    const url = "https://v2.jokeapi.dev/joke/Programming#";
     https.get(url, (response)=>{
         console.log(response.statusCode);
         response.on('data', (data) =>{
