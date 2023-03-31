@@ -12,7 +12,8 @@ app.get('/', (req, res, next) => {
         response.on('data', (data) =>{
             const WeatherData = JSON.parse(data);
             const temp = WeatherData.joke;
-            res.send('The joke is:'+ temp);
+            // res.send('The joke is:'+ temp);
+            res.send('<h1> The joke is: '+ temp + "</h1>")
 
         });
     });
