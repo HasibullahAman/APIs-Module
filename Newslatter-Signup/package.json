@@ -1,0 +1,15 @@
+{
+  "name": "newslatter-signup",
+  "version": "1.0.0",
+  "description": "at this Project we will create a Sign-up for collecting subscrib from one site or mybe we implement it on github Profile.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hasibullah Aman",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2"
+  }
+}
