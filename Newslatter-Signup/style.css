@@ -1,8 +1,13 @@
 html,
 body {
   height: 100%;
+  display: flex;
 }
 
+.bg-light{
+  margin-left:400px;
+  display: flex;
+}
 body {
   display: flex;
   align-items: center;
