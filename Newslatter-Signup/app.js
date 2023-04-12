@@ -7,7 +7,7 @@ const app =  express();
 
 
 app.get('/', function(res,req){
-    res.
+    req.send('Hi this is Hasibullah Aman');
 })
 
 
